@@ -1,7 +1,9 @@
-# User defined
-bin/
-*.cbp
+# specific to CodeBlocks IDE
+*.layout
 *.depend
+# generated directories
+bin/
+obj/
 
 # Prerequisites
 *.d
