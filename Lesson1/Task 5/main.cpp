@@ -1,14 +1,13 @@
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
 int main()
 {
-    float a;
+    int a;
     cout << "What is the mass of a spaceship?" << endl;
     cin >> a;
-    a = ((round(a / 3)) - 2) * 300;
+    a = (((a / 3) % 100) - 2) * 300;
 
     cout << a << endl;
 

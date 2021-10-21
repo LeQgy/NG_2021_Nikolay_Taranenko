@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     int a, b, c, D, x1, x2;
-    cout << "3 numbers: " << endl;
+    cout << "Enter 3 random numbers: " << endl;
     cin >> a >> b >> c;
 
     D = b^2 - 4 * a * c;
